@@ -1,6 +1,5 @@
 import unittest
-from sum_n_numbers import sum_numbers
-
+from project.module.sum_num import sum_numbers
 
 class TestSum(unittest.TestCase):
     def test_sum_numbers_default_args(self):
@@ -20,5 +19,5 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum_numbers([]), 0)
 
 
-if __name__ == "__main__":
-    unittest.main()
+
+
